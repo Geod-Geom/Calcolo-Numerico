@@ -1,4 +1,8 @@
 Calcolo-Numerico
 ================
 
-Codice C e materiale teorico per il corso di "Calcolo Numerico con elementi di programmazione" 
+Codice C per il corso di "Calcolo Numerico con elementi di programmazione" 
+
+Docente: Prof. F. Pitolli
+
+Codocenti: G. Colosimo, A. Nascetti
