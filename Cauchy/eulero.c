@@ -7,8 +7,6 @@
 * http://www.gnu.org/licenses/lgpl.html
 */
 
-
-
 /* Programma di Eulero: 
  *
  * Calcola la soluzione numerica di equazioni differenziali del primo ordine
