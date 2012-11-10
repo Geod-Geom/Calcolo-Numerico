@@ -55,7 +55,7 @@ int main()
 	printf("n = %d \t h = % 14.8lf \t t0 = % 14.8lf \t y0 = % 14.8lf\n\n",n,h,t0,y0);
 	
 	/* Apertura file di output */
-	OUT = fopen("Runge-Kutta_output.txt", "w");
+	OUT = fopen("Eulero_output.txt", "w");
 	// Controllo apertura file
 	if(OUT == NULL)
 	{
