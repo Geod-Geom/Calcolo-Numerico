@@ -7,7 +7,7 @@ Docente: Prof. F. Pitolli
 
 Codocenti: G. Colosimo, A. Nascetti
 
-AVVISO: Il testo dell'esercitazione di venerdì 14 dicembre verrà caricato alle ore 15:30 e nella cartella "Esercitazione_2".
+AVVISO: Il testo dell'esercitazione di venerdì 14 dicembre verrà caricato alle ore 15:30 nella cartella "Esercitazione_2".
         Per accedere al testo dell'esercitazione:
         1) scaricare tutto il contenuto del repository utilizzando il pulsante in alto a sinistra "zip" (Download this repository as a zip file).
         2) Decomprimere l'archivio appena scaricato in una cartella
