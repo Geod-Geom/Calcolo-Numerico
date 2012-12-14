@@ -73,7 +73,6 @@ int main()
 		
 	/* PRODOTTO MATRICE */
 	MATR_PROD(righe_1, colonne_1, colonne_2, A, B, C);
-		
 	/* STAMPA MATRICE */
 	printf("\nMatrice A \n");
 	STAMPA_MATRICE(righe_1, colonne_1, A);
