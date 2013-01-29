@@ -89,13 +89,37 @@ int main()
     printf("Il vettore B:\n");
 	STAMPA_MATRICE(N,1,B);	
 	
+	
+	
 /*  ---------------PARTE MANCANTE---------------------
  * 
  * inserire tutte le operazioni necessarie per calcolare e stampare su schermo 
- * la matrice Cj e il vettore Dj del metodo di jacobi
+ * la matrice Cj e il vettore Qj del metodo di jacobi
  *
  * riferimento pagina 54 slide Sistemi Lineari Prof. Pitolli 
  */
+ 	
+ 	double C[N][N];
+ 	ZEROS_MATRICE(N,N,C);
+ 	
+ 	double Q[N][1];
+ 	ZEROS_MATRICE(N,1,Q);
+ 	
+ 	for(i=0;i<N;i++)
+ 	{
+ 		for(j=0;j<N;j++)
+ 		{
+ 			C[i][j]= A[i][j]/A[i][i];
+ 		}
+ 		
+ 		C[i][i]= 0.0;
+ 		Q[i][0]= Q[i][0]/A[i][i];
+ 	}
+ 	
+ 	printf("La matrice Cj:\n");
+ 	STAMPA_MATRICE(N,N,C);
+ 	printf("Il vettore Qj:\n");
+ 	STAMPA_MATRICE(N,1,Q);
 	
 	double err_k = 10000.00;
 	int num_iter = 0;
